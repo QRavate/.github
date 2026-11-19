@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Help with your QRavate account, billing or a QR code
+    url: https://www.qravate.com/contact
+    about: Account questions are answered by QRavate support, not in these repositories.
+  - name: QRavate API documentation
+    url: https://www.qravate.com/docs
+    about: Endpoints, authentication, errors, webhooks and rate limits.
+  - name: Report a security vulnerability
+    url: https://github.com/QRavate/.github/blob/main/SECURITY.md
+    about: Please do not open a public issue for security problems.

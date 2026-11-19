@@ -1,0 +1,36 @@
+name: Bug report
+description: Something does not work as described in this integration.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem. **Never paste an API key** (`sk_…`), a webhook secret or an OAuth token in an issue: issues are public.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Version of the integration, and of n8n, Zapier platform or Make if relevant.
+      placeholder: n8n-nodes-qravate 0.1.0 on n8n 2.48
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead. Include the error message.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Add the "Create QR Code" action
+        2. Map the destination from…
+        3. Run the step
+  - type: textarea
+    id: details
+    attributes:
+      label: Anything else
+      description: Screenshots, workflow or scenario export (remove any key or secret first).

@@ -1,0 +1,16 @@
+name: Feature request
+description: Suggest an action, a trigger or a field this integration should support.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What do you want to automate?
+      description: Describe the use case first. For example "when a form is submitted, create a QR code and send it by email".
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would help
+      description: The action, trigger or field you would like, if you have one in mind.
